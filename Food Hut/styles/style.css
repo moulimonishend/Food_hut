@@ -1,0 +1,148 @@
+body,h2{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url('../pics/pexels-pixabay-70842.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+}
+ header a{
+    text-decoration: none;
+    color: rgba(240, 152, 10, 0.949);
+    min-width: 120px;
+ }
+
+ header{
+    font-weight: bolder;
+    padding: 1em;
+    display: flex;
+    flex-wrap:wrap ;
+    row-gap: 1em;
+
+ }
+ #logo{
+    flex: 3;
+    font-size: 1.5em;
+    min-width: 260px;
+ }
+ nav{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
+ }
+ nav a{
+    flex: 1;
+ }
+ nav a:hover{
+    color: rgb(45, 194, 45);
+ }
+  
+.main-text{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    padding: 2em;
+}
+
+.tagline-1{
+    color: rgb(225, 0, 0);
+    font-size: 2em;
+    font-weight: bolder;
+}
+.tagline-2{
+    color: whitesmoke;
+    font-size: 1.5em;
+
+}
+
+.main-text div{
+    margin-top: .75em;
+}
+
+.main-text button{
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color: red;
+    font-weight: bolder;
+    color: whitesmoke;
+    border: black;
+   
+}
+.main-text button:hover{
+    color: rgb(6, 237, 22);
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    background: linear-gradient(to right, rgb(100, 100, 100),rgb(68, 66, 66));
+    color: whitesmoke;
+}
+#menu-heading,#locheading{
+    margin: 0;
+    background: linear-gradient(to right, rgb(100, 100, 100),rgb(68, 66, 66));
+    color: red;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+.menu th{
+    color: rgb(31, 195, 36);
+    font-size: 1.2em;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.main-course{
+    grid-row: span 2;
+
+}
+
+.locations{
+    background: linear-gradient(to right, rgb(100, 100, 100),rgb(68, 66, 66));
+    display: flex;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    
+   
+}
+ .locations h2{
+    color: rgb(31, 195, 36);
+    margin-bottom: .8em;
+    justify-content: space-evenly;
+    
+ }
+  .locations div{
+    flex: 1;
+    padding: 1em;
+    min-width: 220px;
+    
+  }
+  footer{
+    background-color: rgb(64, 62, 62);
+    color: whitesmoke;
+    padding: .25em 1em;
+  }
+  i{
+    margin-right: .5em;
+  }
